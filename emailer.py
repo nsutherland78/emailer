@@ -4,7 +4,6 @@ This program will generate an email using your email of choice.
 '''
 from email.mime.text import MIMEText
 import getpass
-import re
 import smtplib
 import sys
 
