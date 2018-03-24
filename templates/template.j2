@@ -1,0 +1,7 @@
+{% set rn_hash = vars['rn_hash'] %}
+<h1>{{ vars['msg'].upper() }} </h1>
+<p>
+{{ vars['email_text'] }}
+{% for rn_key in rn_hash %}
+     {{ rn_key }}
+{% endfor %}
